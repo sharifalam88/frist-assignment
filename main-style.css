@@ -119,7 +119,6 @@
 /* Start gradient style */
 #gradient{
     padding:100px 130px;
-    margin-bottom:70px;
 }
 .gradient-box{
     background-image:url('../images/gradient2.png'), url('../images/watch.png');
@@ -148,3 +147,141 @@
     transition:all 0.5s ease;
 }
 /* End gradient section */
+
+/* Start skill section style */
+#counter{
+    background-color:#777777;
+    padding:100px 80px;
+    overflow:hidden;
+}
+.counter-box-header{
+    font-size:45px;
+    font-weight:800;
+    text-align:center;
+    color:#ffffff;
+    margin-bottom:120px;
+}
+.counter-box{
+    float:left;
+    display:block;
+    background:#fff;
+    width:280px;
+    height:auto;
+    margin-right:15px;
+    box-shadow: 5px 12px 2px 1px rgba(9, 10, 9, 0.2);
+    border-radius:5px;
+}
+.counter-box img{
+    width:100%;
+    height:200px;
+    cursor:pointer;
+}
+.counter-box-title{
+    text-align:center;
+    font-size:25px;
+    font-weight:700;
+    color:#000;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.counter-box-text{
+    font-size:17px;
+    color:#444343;
+    text-align:justify;
+    padding:0px 10px;
+}
+.counter-box-btn{
+    background:#F15B22;
+    color:#eeeeee;
+    border-radius:5px;
+    border:none;
+    padding:15px 30px;
+    font-size:17px;
+    font-weight:600;
+    margin:0px auto;
+    display:block;
+   margin-top:20px;
+   margin-bottom:30px;
+   cursor:pointer;
+}
+.counter-box-btn:hover{
+    background:#000000;
+    color:#fff;
+    transition:all 0.5s ease;
+}
+/* End counter section */
+
+/* Start footer section */
+#footer{
+    background-color:#151414;
+    padding:100px 200px;
+    display:flex;
+    justify-content:space-between;
+}
+ .footer-left{
+    margin-right:300px;
+}
+.footer-left-title{
+    font-size:45px;
+    font-weight:800;
+    color:#F8F8F8;
+    margin-bottom:20px;
+}
+.footer-left-text{
+    font-size:17px;
+    color:#BFBFBF;
+    font-weight:400;
+    margin-bottom:30px;
+}
+.footer-email, .footer-phone{
+    font-size:16px;
+    color:#BFBFBF;
+    margin-bottom:10px;
+}
+.footer-phone{
+    margin-bottom:30px;
+}
+.footer-nav{
+    list-style-type:none;
+}
+.footer-nav li{
+    float:left;
+    margin-right:15px;
+}
+.footer-nav li:last-child{
+    margin-right:0px;
+}
+/* End footer left side */
+
+.footer-right{
+
+}
+.right-footer-title{
+    font-size:30px;
+    font-weight:800;
+    color:#F8F8F8;
+    margin-bottom:20px;
+}
+.footer-right .email{
+    background:transparent;
+    border:1px solid #ddd;
+    border-radius:7px;
+    padding:10px 15px;
+    margin-bottom:20px;
+    font-size:17px;
+}
+.footer-right .subscribe{
+    background:#ffffff;
+    font-size:17px;
+    color:#ffffff;
+    color:red;
+    border-radius:7px;
+    padding:15px 25px;
+    cursor:pointer;
+}
+.footer-right .subscribe:hover{
+    background:#000000;
+    color:#fff;
+    transition:all 0.5s ease;
+}
+/* End footer style */
