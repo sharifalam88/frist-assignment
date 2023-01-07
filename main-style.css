@@ -212,7 +212,7 @@
 /* End counter section */
 
 /* Start footer section */
-#footer{
+#top-footer{
     background-color:#151414;
     padding:100px 200px;
     display:flex;
@@ -285,3 +285,15 @@
     transition:all 0.5s ease;
 }
 /* End footer style */
+
+/* bottom footer design */
+#bottom-footer{
+    background-color:#444444;
+    padding:20px 200px;
+}
+#bottom-footer .bottom-footer-text{
+    text-align:center;
+    font-size:17px;
+    color:#ffffff;
+    font-weight:400;
+}
