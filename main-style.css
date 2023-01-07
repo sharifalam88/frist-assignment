@@ -16,7 +16,7 @@
 }
 /* header banner part */
 #header{
-    background-image:url('../images/banner/banner2.png');
+    background-image:url('images/banner/banner2.png');
     background-repeat:no-repeat;
     background-size:cover;
     padding:350px 150px;
@@ -42,7 +42,7 @@
 
 /* Start failure section style */
 #failure-section{
-    background-image:url('../images/person.png');
+    background-image:url('images/person.png');
     background-repeat:no-repeat;
     padding:300px 200px;
     margin-top:100px;
@@ -134,7 +134,7 @@
     padding:100px 130px;
 }
 .gradient-box{
-    background-image:url('../images/gradient2.png'), url('../images/watch.png');
+    background-image:url('images/gradient2.png'), url('images/watch.png');
     border-radius:7px;
     padding:100px 50px;
     background-repeat:no-repeat;
