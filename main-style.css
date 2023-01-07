@@ -92,7 +92,19 @@
     font-weight:700;
     text-align:center;
     margin-bottom:30px;
+    position:relative;
 }
+/* About css pseudo element */
+#myPlan .myPlan-title::before{
+    content: "";
+    position: absolute;
+    top: 50px;
+    width: 170px;
+    height: 5px;
+    background: #F15B22;
+   
+}
+/* myPlan content wraper */
 #myPlan .content-wrap{
     display:flex;
     gap:70px;
@@ -116,6 +128,7 @@
     margin-top:20px;
 }
 /* End myPlan section */
+
 /* Start gradient style */
 #gradient{
     padding:100px 130px;
@@ -141,6 +154,7 @@
     margin-top:30px;
     cursor:pointer;
 }
+/* Gradient btn hover effect */
 .gradient-btn:hover{
     background:#000000;
     color:#fff;
@@ -160,7 +174,19 @@
     text-align:center;
     color:#ffffff;
     margin-bottom:120px;
+    position:relative;
 }
+.counter-box-header::before{
+    content:"";
+    position:absolute;
+    width:645px;
+    height:5px;
+    background:#F15B22;
+    top:57px;
+
+}
+
+/* design four counter box */
 .counter-box{
     float:left;
     display:block;
@@ -176,6 +202,7 @@
     height:200px;
     cursor:pointer;
 }
+/* design counter box title */
 .counter-box-title{
     text-align:center;
     font-size:25px;
@@ -204,6 +231,7 @@
    margin-bottom:30px;
    cursor:pointer;
 }
+/* counter box button hover */
 .counter-box-btn:hover{
     background:#000000;
     color:#fff;
