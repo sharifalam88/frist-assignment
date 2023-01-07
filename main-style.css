@@ -45,8 +45,8 @@
     background-image:url('../images/person.png');
     background-repeat:no-repeat;
     padding:300px 200px;
-    margin-left:100px;
     margin-top:100px;
+   margin-left:100px;
 }
 
 .section-content{
@@ -80,4 +80,71 @@
     color:#444343;
     margin-bottom:10px;
 }
+/* End failure section style */
 
+/* Start myPlans style */
+#myPlan{
+    padding:0px 150px;
+}
+#myPlan .myPlan-title{
+    font-size:40px;
+    color:#000000;
+    font-weight:700;
+    text-align:center;
+    margin-bottom:30px;
+}
+#myPlan .content-wrap{
+    display:flex;
+    gap:70px;
+    justify-content:center;
+}
+#myPlan .myPlan-content img{
+    width:80px;
+    height:80px;
+    margin-bottom:30px;
+}
+#myPlan .myPlan-content h3{
+    font-family:40px;
+    font-weight:800;
+    color:#000000;
+}
+#myPlan .myPlan-content p{
+    font-size:17px;
+    font-weight:300;
+    color:#444343;
+    text-align:center;
+    margin-top:20px;
+}
+/* End myPlan section */
+/* Start gradient style */
+#gradient{
+    padding:100px 130px;
+    margin-bottom:70px;
+}
+.gradient-box{
+    background-image:url('../images/gradient2.png'), url('../images/watch.png');
+    border-radius:7px;
+    padding:100px 50px;
+    background-repeat:no-repeat;
+
+}
+.gradient-box-title{
+    font-size:40px;
+    font-weight:800;
+    color:#ffffff;
+}
+.gradient-btn{
+    background:#ffffff;
+    padding:15px 30px;
+    color:#F15B22;
+    border:none;
+    border-radius:5px;
+    margin-top:30px;
+    cursor:pointer;
+}
+.gradient-btn:hover{
+    background:#000000;
+    color:#fff;
+    transition:all 0.5s ease;
+}
+/* End gradient section */
